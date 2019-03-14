@@ -1,0 +1,8 @@
+= simple_form_for(@workout, html: { class: 'form-horizontal' }) do |f|
+  = f.input :date, label: "Data do treino"
+  = f.input :workout, label: "Qual treino você realizou?"
+  = f.input :mood, label: "Como você estava se sentindo no treino?"
+  = f.input :length, label: "Quanto tempo durou o treino?"
+  &br/
+  = f.button :submit
+
