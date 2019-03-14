@@ -1,0 +1,15 @@
+current directory: /Users/dito/Documents/dito/demo_ruby1/workout_log/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+/Users/dito/.rvm/rubies/ruby-2.6.0/bin/ruby -I /Users/dito/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0 -r ./siteconf20190314-1707-11dl01d.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dito/Documents/dito/demo_ruby1/workout_log/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/dito/Documents/dito/demo_ruby1/workout_log/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/dito/Documents/dito/demo_ruby1/workout_log/vendor/cache/ruby/2.6.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190314-1707-v1u3jz/bindex
