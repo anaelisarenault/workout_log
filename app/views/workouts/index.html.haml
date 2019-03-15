@@ -2,5 +2,8 @@
 - @workouts.each do |workout|
   %h2= link_to workout.date, workouts_path
   %h3= workout.workout
-  %p= workout.date
-  %p= workout.workout
+  %p= workout.mood
+  %p= workout.length
+
+  = link_to "Back", root_path
+  = link_to "Edit", edit_workout_path(@workouts)
