@@ -55,6 +55,36 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
+    brI18n (3.3.0)
+      actionpack (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brazilian-rails (3.3.0)
+      brI18n (= 3.3.0)
+      brcep (= 3.3.0)
+      brcpfcnpj (= 3.3.0)
+      brdata (= 3.3.0)
+      brdinheiro (= 3.3.0)
+      brhelper (= 3.3.0)
+      brnumeros (= 3.3.0)
+      brstring (= 3.3.0)
+    brcep (3.3.0)
+    brcpfcnpj (3.3.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brdata (3.3.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brdinheiro (3.3.0)
+      actionpack (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      brnumeros (= 3.3.0)
+    brhelper (3.3.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brnumeros (3.3.0)
+    brstring (3.3.0)
+      activesupport (>= 3.0.0)
     builder (3.2.3)
     byebug (11.0.0)
     capybara (3.14.0)
@@ -211,6 +241,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap-sass (~> 3.4, >= 3.4.1)
+  brazilian-rails
   byebug
   capybara (>= 2.15)
   chromedriver-helper
@@ -232,7 +263,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 RUBY VERSION
-   ruby 2.6.1p33
+   ruby 2.6.0p0
 
 BUNDLED WITH
    1.17.3

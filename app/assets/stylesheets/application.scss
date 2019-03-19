@@ -1,2 +1,247 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+background: #0F2027; 
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
+html {
+  height: 100%;
+}
+
+.navbar-default {
+  //background: rgba(250, 250, 250, 0.5);
+ // -webkit-box-shadow: 0 2px 2px 0 rgba(124, 124, 124, 0.75);
+  //box-shadow: 0 1px 1px 0 rgba(117, 117, 117, 0.2);
+  color: #284B5A;
+  text-decoration-color: #284B5A;
+  .navbar-header {
+    .navbar-brand {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: -1px;
+      color: #284B5A;
+    }
+  }
+}
+.navbar-default .navbar-link {
+  text-decoration-color: #284B5A;
+  color:#284B5A;
+  margin: 6px;
+  padding-top: 13px;
+  font-size: 18px;
+  padding: 10px 10px 5px 5px;
+  position: relative;
+}
+
+.navbar-link {
+  //border: solid black 2px;
+  
+  
+}
+
+.navbar-link:hover {
+  //background: grey;
+  //border: green solid 2px;
+}
+
+
+
+//.navbar-link:hover {
+  //text-shadow: 0 0 2em rgba(255,255,255,1);
+  //color: white;
+  //border-color: #FFF;
+//}
+
+/*
+#app_page {
+  div {
+   text-decoration-color: #284B5A;
+  }
+}*/ 
+
+/*.navbar-link:hover {
+  background: #203A43;
+  background-image: -webkit-linear-gradient(top, #203A43, #2C5364);
+  background-image: -moz-linear-gradient(top, #203A43, #2C5364);
+  background-image: -ms-linear-gradient(top, #203A43, #2C5364);
+  background-image: -o-linear-gradient(top, #203A43, #2C5364);
+  background-image: linear-gradient(to bottom, #203A43, #2C5364);
+  text-decoration: none;
+}
+
+ //.navbar-link:active { */
+    
+
+h1 {
+  color: white;
+}
+form-control-label {
+  color: rgb(139, 139, 139);
+}
+
+.btnCancelar{
+  -moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fc8d83), color-stop(1, #dd4d40));
+	background:-moz-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-webkit-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-o-linear-gradient(top, #fc8d83 5%, #e04c3f 100%);
+	background:-ms-linear-gradient(top, #fc8d83 5%, #e75346 100%);
+	background:linear-gradient(to bottom, #fc8d83 5%, #df5245 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc8d83', endColorstr='#e4685d',GradientType=0);
+	background-color:#fc8d83;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display: inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding: 10px 10px 10px;;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+  position: left;
+  margin-left: 130px;
+  margin-bottom: 300px;
+  color: black;
+  margin-top: -56px;
+  backface-visibility: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btnCancelar:hover{
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #fc8d83));
+	background:-moz-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-webkit-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-o-linear-gradient(top, #e4685d 5%, #e76155 100%);
+	background:-ms-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:linear-gradient(to bottom, #e4685d 5%, #d64a3d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#fc8d83',GradientType=0);
+  background-color:#e4685d;
+  color: rgb(53, 52, 52);
+  text-decoration: none;
+}
+.btnCancelar:active{
+  position:relative;
+	top:1px;
+}
+ .navbar-brand {
+   font-size: 20px;
+   margin-top: 10px;
+
+ }
+
+ .simple_form.form-horizontal{
+color: white;
+ }
+
+
+
+
+  .btn {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#ddbb44 0%,#d6b540 30%,#c6a530 65%,#bc9a12 100%); //linear-gradient(180deg,#ddbb44 0%,#d6b540 30%,#c6a530 65%,#bc9a12 100%);
+  border-radius: 8px;
+  border: 0px solid #973;
+  border-width: 0px 0px 0px 0px;
+  padding: 10px 10px 10px;
+  box-shadow: inset 0px 1px 3px rgba(100%,100%,100%,0.4);
+  color: #000;
+  font-size: initial;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  padding-left: -10px;
+  margin-right: 20px;
+  }
+  .btn > div {
+  color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .btn > i {
+    color: #fff;
+  font-size: 1em;
+  background: rgba(0,0,0,0.2);
+  border-radius: 100px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 10px;
+  position: static;
+  box-shadow: inset 0px 1px 2px rgba(0,0,0,0.4),inset 0px -1px 0px rgba(255,255,255,.5)
+  }
+  .btn > .ld {
+    font-size: initial
+  }
+
+  #index_workouts {
+    h2 {
+      margin-bottom: 0;
+      font-weight: 100;
+      a {
+      color:white;
+      }
+    }
+    h3 {
+      margin:0;
+      font-size:18px;
+      color: white;
+      span {
+        color: rgb(159, 168, 28)
+      }
+    }
+    div {
+      //padding: 1em;
+      margin: 3px;
+    }
+  }
+
+  .btnEditar {
+   //color: rgb(212, 199, 11);
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    //@warnwhite-space: nowrap;
+    background: linear-gradient(180deg,#ddbb44 0%,#d6b540 30%,#c6a530 65%,#bc9a12 100%);
+    border-radius: 5px;
+    border: 0px solid #973;
+    border-width: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 5px; //9px 15px 6px 15px;
+    box-shadow: inset 0px 1px 3px rgba(100%,100%,100%,0.4);
+      color: #284B5A;
+    font-size: 12px;
+    font-family: Helvetica Neue;
+    font-weight: 900;
+    font-style: bold;
+    //font-size: 9px;
+    //padding-top: 3px;
+  }
+
+  .btnEditar > .ld {
+    font-size: 10px;
+  }
+
+  #html_novoTreino {
+    h1 {
+      color: rgba(248, 244, 244, 0.918);
+    }
+  }
