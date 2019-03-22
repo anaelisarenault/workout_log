@@ -17,6 +17,7 @@ html {
   //box-shadow: 0 1px 1px 0 rgba(117, 117, 117, 0.2);
   color: #284B5A;
   text-decoration-color: #284B5A;
+  
   .navbar-header {
     .navbar-brand {
       font-size: 20px;
@@ -141,11 +142,8 @@ form-control-label {
  }
 
  .simple_form.form-horizontal{
-color: white;
+  color: white;
  }
-
-
-
 
   .btn {
   backface-visibility: hidden;
@@ -240,8 +238,65 @@ color: white;
     font-size: 10px;
   }
 
+  #workout{
+    h2 { 
+    color: white;
+    }
+  }
+  div #exercises {
+    padding-top: 3px;
+    h2, h3 {
+      color: white;
+    }
+  }
+  
+  div #botoes {
+    .btnEdit{
+      backface-visibility: hidden;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      //@warnwhite-space: nowrap;
+      background: linear-gradient(180deg,#ddbb44 0%,#d6b540 30%,#c6a530 65%,#bc9a12 100%);
+      border-radius: 5px;
+      border: 0px solid #973;
+      border-width: 0px 0px 0px 0px;
+      padding: 5px 5px 5px 5px; //9px 15px 6px 15px;
+      box-shadow: inset 0px 1px 3px rgba(100%,100%,100%,0.4);
+        color: #284B5A;
+      font-size: 12px;
+      font-family: Helvetica Neue;
+      font-weight: 900;
+      font-style: bold;
+      }
+      .btnVoltar{
+        color: yellow;
+        
+      }
+      .btnDelete{
+        color: red;
+      }
+  }
+  div .form-group {
+    label {
+      color: white;
+    }
+  }
+
   #html_novoTreino {
     h1 {
       color: rgba(248, 244, 244, 0.918);
+    }
+  }
+
+  div #workout {
+    h3 {
+      font-size: 16px;
+      color: rgb(231, 197, 75);
+      font-weight: 500;
+    
+    }
+    span {
+      color:white;
     }
   }
