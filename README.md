@@ -5,7 +5,7 @@ Log simples de treinos desenvolvido em Rails. Possibilita registro e consulta de
 
 ### Como testar
 #### Pré-requisitos
-1. Possuir Ruby on Rails[https://rubyonrails.org/] instalado.
+1. Possuir Ruby on Rails https://rubyonrails.org/] instalado.
 
 ### Como executar
 1. Abrir o diretório do projeto no terminal;
