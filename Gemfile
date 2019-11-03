@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'haml', '~> 5.0', '>= 5.0.4'
-gem 'simple_form', '~> 4.1'
+gem 'simple_form', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 group :development, :test do
  
